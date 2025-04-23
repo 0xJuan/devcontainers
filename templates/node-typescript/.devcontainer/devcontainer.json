@@ -1,8 +1,9 @@
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/typescript-node
 {
-    "name": "python-datascience",
-    // Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+    "name": "node-typescript",
     "dockerComposeFile": "docker-compose.yml",
-    "service": "python-datascience",
+    "service": "node-typescript",
     "workspaceFolder": "/workspace",
     // Features to add to the dev container. More info: https://containers.dev/features.
     // "features": {},
@@ -15,9 +16,7 @@
         "vscode": {
             "extensions": [
                 "github.copilot",
-                "github.copilot-chat",
-                "ms-toolsai.jupyter",
-                "ms-toolsai.datawrangler"
+                "github.copilot-chat"
             ]
         }
     }
