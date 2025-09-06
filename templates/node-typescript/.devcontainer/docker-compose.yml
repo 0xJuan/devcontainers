@@ -1,9 +1,0 @@
-services:
-  node-typescript:
-    container_name: node-typescript
-    build:
-      context: .
-      dockerfile: ./Dockerfile
-    volumes:
-      - ..:/workspace:cached
-    command: sleep infinity

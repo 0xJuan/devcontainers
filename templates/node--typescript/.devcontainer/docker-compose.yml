@@ -1,0 +1,10 @@
+services:
+  node--typescript:
+    container_name: node--typescript
+    build:
+      context: ..
+      dockerfile: .devcontainer/Dockerfile
+    platform: linux/arm64
+    volumes:
+      - ..:/workspace:cached
+    command: sleep infinity
