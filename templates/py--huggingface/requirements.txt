@@ -1,0 +1,13 @@
+# huggingface
+transformers
+datasets
+accelerate
+sentencepiece
+# PyTorch
+torch
+torchvision
+torchaudio
+# other
+ipykernel
+pandas
+scikit-learn
