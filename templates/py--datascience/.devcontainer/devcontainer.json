@@ -1,0 +1,23 @@
+{
+    "name": "py--datascience",
+    "dockerComposeFile": "docker-compose.yml",
+    "service": "py--datascience",
+    "workspaceFolder": "/workspace",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "docker.docker",
+                "github.copilot",
+                "github.copilot-chat",
+                "ms-azuretools.vscode-containers",
+                "ms-python.autopep8",
+                "ms-python.debugpy",
+                "ms-python.python",
+                "ms-python.pylint",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "ms-toolsai.datawrangler"
+            ]
+        }
+    }
+}
