@@ -1,0 +1,16 @@
+{
+  "name": "ubuntu",
+  "dockerComposeFile": "docker-compose.yml",
+  "service": "ubuntu",
+  "workspaceFolder": "/workspace",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "docker.docker",
+        "github.copilot",
+        "github.copilot-chat",
+        "ms-azuretools.vscode-containers"
+      ]
+    }
+  }
+}
